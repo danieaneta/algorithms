@@ -1,6 +1,4 @@
 int[] arr = { 5, 2, 4, 6, 1, 3 };
-InsertionSort(arr);
-Console.WriteLine(string.Join(", ", arr)); // prints "1, 2, 3, 4, 5, 6"
 
 
 public static void InsertionSort(int[] arr)
@@ -18,3 +16,6 @@ public static void InsertionSort(int[] arr)
         arr[j + 1] = key;
     }
 }
+
+InsertionSort(arr);
+Console.WriteLine(string.Join(", ", arr)); // prints "1, 2, 3, 4, 5, 6"
